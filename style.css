@@ -1,4 +1,5 @@
 
+/* hero section */
 .fira-sans-thin {
     font-family: "Fira Sans", serif;
     font-weight: 100;
@@ -7,6 +8,7 @@
     margin: 10px 160px;
   }
 
+  /* nav section */
 .sign-btn{
     font-weight: 600;
     font-size: 22px;
@@ -27,9 +29,10 @@
 section nav{
     display: flex;
     justify-content: space-between;
-    margin: ;
+
   }
 
+  /* hero section */
 .second{
     background-color: #C6E4D6;
     display: flex;
@@ -38,7 +41,7 @@ section nav{
     align-items: center;
     margin: 25px 0px 80px 0px;
     padding: 80px 10px 80px 55px;
-    border-radius: 10px;
+    border-radius: 24px;
 
 
 }
@@ -70,6 +73,8 @@ h5{
     border-radius: 5px;
 }
 
+/* all p and others text color */
+
 .text-color{
     color: #606A6A;
     font-weight: 370;
@@ -80,16 +85,18 @@ h5{
     font-size: 40px;
 }
 
+/* piiiar's of bangladesh section */
+
 .div4{
     display: flex;
-    gap: 20px;
+    gap: 24px;
     justify-content: space-between;
     margin-bottom: 80px;
 }
 .div4 div{
     background-color: #FFFFFF;
-    border: 1px solid #B3B3B3;
-    border-radius: 15px;
+    border: 1px solid #d5d5d5;
+    border-radius: 16px;
     padding: 20px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
 }
@@ -111,12 +118,12 @@ h5{
     border-radius: 5px;
     color: white;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .btn1:hover{
     background-color: rgb(147, 26, 198);
     color: rgb(229, 255, 0);
-    /* border: white solid; */
     border-radius: 5px;
 }
 
@@ -129,6 +136,7 @@ h5{
     border-radius: 5px;
     color: white;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .btn2:hover{
@@ -146,6 +154,7 @@ h5{
     border-radius: 5px;
     color: white;
     font-weight: 600;
+    cursor: pointer;
 }
 
 .btn3:hover{
@@ -169,11 +178,14 @@ h5{
     margin-bottom: 40px;
 }
 
+
+/* quote section configaration */
+
 .quote{
     background-image: url(assets/quote-bg.png);
     background-repeat: no-repeat ;
     background-position: 20px 20px;
-    border: 1px solid #B3B3B3;
+    border: 1px solid #d5d5d5;
     border-radius: 15px;
     padding: 30px 20px 20px 20px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
@@ -196,6 +208,8 @@ h5{
     font-weight: 400;
 }
 
+/* recent news section */
+
 .satelite div img{
     border-radius: 24px;
 }
@@ -208,7 +222,7 @@ h5{
     align-items: center;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
     padding: 48px ;
-    border: 1px solid #B3B3B3;
+    /* border: 1px solid #B3B3B3; */
     border-radius: 15px;
     margin-bottom: 24px;
 
@@ -217,12 +231,15 @@ h5{
 
 .btn5{
     margin: 13px 0px 10px 0px;
-    padding: 10px 25px;
+    padding: 13px 35px;
     background-color: #006A50;
     border: none;
     border-radius: 5px;
     color: white;
     font-weight: 600;
+    margin-top: 30px;
+    font-size: 18px;
+    cursor: pointer;
 }
 
 .btn5:hover{
@@ -238,3 +255,125 @@ h5{
     padding-bottom: 0px ;
     margin-bottom: 7px;
 }
+.marg2{
+    margin-bottom: 15px;
+
+}
+
+
+/* donate section */
+
+.donate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px;
+    margin-bottom: 80px;
+}
+
+.do{
+    text-align: center;
+    font-weight: 330;
+    color: #606A6A;
+   
+}
+
+.donate-taka{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+
+}
+.donate-taka div{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
+    padding: 40px 40px 40px 40px;
+    border: 1px solid #d5d5d5;
+    border-radius: 20px;
+    margin-top: 13px;
+    margin-bottom: 32px;
+
+}
+
+.input{
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
+    
+    padding: 18px 287px;
+    border: 1px solid #d5d5d5 ;
+    border-radius: 5px;
+    text-align: center;
+    cursor:pointer;
+
+}
+
+.input:hover{
+    background-color: #d7f3ce;
+    padding: 18px 287px;
+    border: 1px red solid;
+    border-radius: 5px;
+    color: red;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.donate-today{
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+.tk100{
+    background-color: #bfebbe;
+}
+
+.tk100:hover{
+    background-color: #4afbab;
+    padding: 41px 41px 41px 41px;
+    color: red;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.tk200{
+    background-color: #f9eac7;
+}
+
+.tk200:hover{
+    background-color: #e7f52a;
+    padding: 41px 41px 41px 41px;
+    color: red;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+.tk500{
+    background-color: #c5e9f3;
+}
+
+.tk500:hover{
+    background-color: #5eccf7;
+    padding: 41px 41px 41px 41px;
+    color: red;
+    border: 1px solid red;
+    cursor: pointer;
+}
+.tk1000{
+    background-color: #baf2f2;
+}
+
+.tk1000:hover{
+    background-color: #03fdfd;
+    padding: 41px 41px 41px 41px;
+    color: red;
+    border: 1px solid red;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
