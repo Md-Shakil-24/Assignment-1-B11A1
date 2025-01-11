@@ -2,28 +2,44 @@
 /* hero section */
 .fira-sans-thin {
     font-family: "Fira Sans", serif;
-    font-weight: 100;
+    font-weight: 450;
     font-style: normal;
 
-    margin: 10px 160px;
+    margin: 30px 160px;
   }
 
   /* nav section */
+  .s32{
+    font-size: 38px;
+    margin: 5px 0px;
+  }
+
+  .s1{
+    color: #006A50;
+    
+  }
+
+
+  .s2{
+    color: red;
+  }
+
+
 .sign-btn{
     font-weight: 600;
     font-size: 22px;
     color: green;
     background-color: white;
-    padding: 0px 40px;
+    padding: 0px 34px;
     border: 2px solid green;
-    border-radius: 5px;
+    border-radius: 8px;
     cursor: pointer;
   }
   .sign-btn:hover{
     background-color: rgb(147, 26, 198);
     color: white;
-    border: rgb(191, 95, 95) solid;
-    border-radius: 5px;
+    border: 2px solid black;
+    border-radius: 8px;
   }
 
 section nav{
@@ -33,6 +49,14 @@ section nav{
   }
 
   /* hero section */
+
+  .big{
+    color: #586262;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
 .second{
     background-color: #C6E4D6;
     display: flex;
@@ -61,7 +85,7 @@ h5{
     background-color: #006A50;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 8px;
     font-weight: 550;
     cursor: pointer;
     font-size: 18px;
@@ -70,14 +94,14 @@ h5{
 .explore:hover{
     background-color: rgb(147, 26, 198);
     color: rgb(229, 255, 0);
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 /* all p and others text color */
 
 .text-color{
     color: #606A6A;
-    font-weight: 370;
+    font-weight: 400;
     
 }
 
@@ -178,6 +202,10 @@ h5{
     margin-bottom: 40px;
 }
 
+.vision{
+    color: #B3B3B3;
+}
+
 
 /* quote section configaration */
 
@@ -210,6 +238,13 @@ h5{
 
 /* recent news section */
 
+.fira-sans-thin5 {
+    font-family: "Fira Sans", serif;
+    font-weight: 380;
+    font-style: normal;
+
+  }
+
 .satelite div img{
     border-radius: 24px;
 }
@@ -234,7 +269,7 @@ h5{
     padding: 13px 35px;
     background-color: #006A50;
     border: none;
-    border-radius: 5px;
+    border-radius: 9px;
     color: white;
     font-weight: 600;
     margin-top: 30px;
@@ -245,7 +280,7 @@ h5{
 .btn5:hover{
     background-color: rgb(147, 26, 198);
     color: rgb(229, 255, 0);
-    border-radius: 5px;
+    border-radius: 9px;
 }
 
 .f-size2{
@@ -269,11 +304,16 @@ h5{
     align-items: center;
     padding: 24px;
     margin-bottom: 80px;
+    
+}
+
+.donate input{
+    margin: 0px auto 0px auto;
 }
 
 .do{
     text-align: center;
-    font-weight: 330;
+    font-weight: 400;
     color: #606A6A;
    
 }
@@ -296,22 +336,26 @@ h5{
 
 .input{
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
-    padding: 18px 287px;
+    padding: 16px 287px;
     border: 1px solid #d5d5d5 ;
     border-radius: 5px;
     text-align: center;
     cursor:pointer;
+    font-size: 18px;
 
 }
 
+
 .input:hover{
     background-color: #d7f3ce;
-    padding: 18px 287px;
+    padding: 16px 287px;
     border: 1px red solid;
     border-radius: 5px;
     color: red;
-    font-size: 13px;
+    font-size: 18px;
     font-weight: 500;
+    border: 1px solid red;
+    font-size: 17px;
 }
 
 .donate-today{
@@ -366,6 +410,8 @@ h5{
     cursor: pointer;
 }
 
+/* subcribes section  */
+
 .subs{
     background-color: #C6E4D6 ;
     padding: 80px 100px;
@@ -391,6 +437,22 @@ h5{
     font-size: 18px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+
+
+.same1:hover{
+    background-color: #f3e4ce;
+    padding: 11px 10px 11px 35px
+    text-align: left;
+    width: 377px;
+    height: auto;
+    font-weight: 400;
+    font-size: 18px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    border-left: 2px solid red;
 }
 
 .same3{
@@ -405,16 +467,71 @@ h5{
     font-weight: 400;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    cursor: pointer;
 }
 
 
+.same3:hover{
+    background-color: rgb(147, 26, 198);
+    color: rgb(229, 255, 0);
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.fira-sans-thin1 {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+
+  }
 
 
+  /* footer section  */
+
+ .div-foot{
+    margin: 0px 200px;
+  }
+
+.div-foot h2 {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+}
 
 
+.foot{
+    margin: 0px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.15);
+    padding: 10px 0px 60px 0px;  
+    justify-content: center;
+}
+
+.div-foot div{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+    
+}
 
 
+.div-foot div img{
+    padding: 10px;
+    border: 2px solid white;
 
+}
+
+.div-foot div img:hover{
+    cursor: pointer;
+    background-color: #4afbab;
+    /* padding: 1px; */
+    border-radius: 5px;
+    border: 2px solid red;
+    
+}
 
 
 
